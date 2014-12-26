@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.beatsmaking.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bass1" />
+
+        <Button
+            android:id="@+id/drum1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drum1" />
+
+        <Button
+            android:id="@+id/hihit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hihit1" />
+
+        <Button
+            android:id="@+id/strings1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strings1" />
+
+        <Button
+            android:id="@+id/brass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="brass" />
+
+        <Button
+            android:id="@+id/lead1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lead1" />
+
+        <Button
+            android:id="@+id/piano1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/piano1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bass2" />
+
+        <Button
+            android:id="@+id/drum2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drum2" />
+
+        <Button
+            android:id="@+id/hihit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hihit2" />
+
+        <Button
+            android:id="@+id/strings2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strings2" />
+
+        <Button
+            android:id="@+id/cello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cello" />
+
+        <Button
+            android:id="@+id/lead2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lead2" />
+
+        <Button
+            android:id="@+id/piano2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/piano2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:layout_toRightOf="@+id/linearLayout2"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/stop1"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+
+        <Button
+            android:id="@+id/stop2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+
+        <Button
+            android:id="@+id/stop3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+
+        <Button
+            android:id="@+id/stop4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+
+        <Button
+            android:id="@+id/stop5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+
+        <Button
+            android:id="@+id/stop6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+
+        <Button
+            android:id="@+id/stop7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:text="@string/stop" />
+
+    </LinearLayout>
+
+</RelativeLayout>

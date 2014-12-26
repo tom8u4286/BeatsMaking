@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeatsMaking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bass1">bass1</string>
+    <string name="drum1">drum1</string>
+    <string name="hihit1">hihit1</string>
+    <string name="strings1">strings1</string>
+    <string name="lead1">lead1</string>
+    <string name="piano1">piano1</string>
+    <string name="bass2">bass2</string>
+    <string name="drum2">drum2</string>
+    <string name="hihit2">hihit2</string>
+    <string name="strings2">strings2</string>
+    <string name="contrabass">contrabass</string>
+    <string name="cello">cello</string>
+    <string name="lead2">lead2</string>
+    <string name="piano2">piano2</string>
+    <string name="stop">stop</string>
+
+</resources>
